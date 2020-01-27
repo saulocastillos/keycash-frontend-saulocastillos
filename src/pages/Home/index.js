@@ -18,7 +18,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
         <li>
@@ -31,7 +31,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
         <li>
@@ -44,7 +44,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
         <li>
@@ -57,7 +57,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
         <li>
@@ -70,7 +70,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
         <li>
@@ -83,7 +83,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
         <li>
@@ -96,7 +96,7 @@ export default function Home() {
               <strong>Casa muito legal</strong>
               <span>R$ 1000,00</span>
             </div>
-            <Favorite size={36} color="#ff0000" />
+            <Favorite size={36} color="#e7308a" />
           </div>
         </li>
       </PropertyList>
