@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 import { Link } from 'react-router-dom';
 
+import { MdFavoriteBorder as Heart } from 'react-icons/md';
+
 import media from 'styled-media-query';
 
 export const Container = styled.div`
@@ -27,4 +29,9 @@ export const Container = styled.div`
 export const CardLink = styled(Link)`
   text-decoration: none;
   color: inherit;
+`;
+
+export const FavoriteHeart = styled(Heart)`
+  margin-top: -4rem;
+  margin-bottom: 2rem;
 `;
