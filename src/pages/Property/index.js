@@ -2,10 +2,10 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-export default function Property() {
+export default function Property({ match }) {
   return (
     <>
-      <h1>Property</h1>
+      <h1>{match.params.id}</h1>
     </>
   );
 }
