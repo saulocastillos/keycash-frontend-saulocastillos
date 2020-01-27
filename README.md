@@ -1,3 +1,7 @@
+### To Play
+
+https://saulocastillos.github.io/keycash-frontend-saulocastillos/#/
+
 ## 1. Como rodar localmente?
 
 #### Entre no prompt de comando ou terminal e navegue até a pasta desejada.
@@ -14,7 +18,7 @@
 
   yarn
 
-#### Pronto, agora para rodar o projeto localmente, basta executar o seguinte comando:
+#### Pronto, basta executar o seguinte comando:
 
   yarn start
 
