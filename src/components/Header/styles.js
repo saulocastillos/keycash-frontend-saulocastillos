@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import { MdFavorite } from 'react-icons/md';
-
 import media from 'styled-media-query';
 
 import { Link } from 'react-router-dom';
@@ -60,16 +58,5 @@ export const Favorite = styled(Link)`
         color: #010101;
       }
     }
-  `}
-`;
-
-export const HeartIcon = styled(MdFavorite)`
-  width: 40px;
-  height: 40px;
-  color: #e7308a;
-
-  ${media.greaterThan('small')`
-    width: 60px;
-    height: 60px;
   `}
 `;
