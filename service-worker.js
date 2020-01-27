@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/keycash-frontend-saulocastillos/precache-manifest.e8f8def85746970c615463e21dfb2b80.js"
+  "/keycash-frontend-saulocastillos/precache-manifest.43d953e1d325b5f8dd64efaa6de62c2b.js"
 );
 
 self.addEventListener('message', (event) => {
