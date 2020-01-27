@@ -1,25 +1,25 @@
 ## 1. Como rodar localmente?
 
-### 1. Entre no prompt de comando ou terminal e navegue até a pasta desejada.
+#### Entre no prompt de comando ou terminal e navegue até a pasta desejada.
 
-### 2. Clone o repositório digitando o seguinte comando:
+#### Clone o repositório digitando o seguinte comando:
 
   git clone "https://github.com/saulocastillos/keycash-frontend-saulocastillos"
 
-### 3. Entre na pasta keycash-frontend-saulocastillos:
+#### Entre na pasta keycash-frontend-saulocastillos:
 
   cd keycash-frontend-saulocastillos
 
-### 4. Rode o yarn:
+#### Rode o yarn:
 
   yarn
 
-### 5. Pronto, agora para rodar o projeto localmente, basta executar o seguinte comando:
+#### Pronto, agora para rodar o projeto localmente, basta executar o seguinte comando:
 
   yarn start
 
 ## 2 .Como fazer o deploy?
 
-### 1. Depois de seguir o tutorial de como rodar o projeto localmente, execute o seguinte comando:
+#### Depois de seguir o passso 1 (como rodar o projeto localmente), execute o seguinte comando no terminal dentro da pasta raiz do projeto:
 
   yarn run deploy
