@@ -1,6 +1,9 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
+
+import media from 'styled-media-query';
 
 export default createGlobalStyle`
+
   *{
     margin: 0;
     padding: 0;
@@ -26,4 +29,11 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
-`
+
+  ${media.greaterThan('small')`
+
+
+  `}
+
+
+`;
