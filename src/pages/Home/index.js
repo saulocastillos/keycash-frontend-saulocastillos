@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import api from '../../services/api';
 
-import { PropertyList } from './styles';
+import { PropertyList, CardLink } from './styles';
 
 import Property from '../../components/Property';
 
@@ -24,7 +24,9 @@ export default class Home extends Component {
         {properties ? (
           <PropertyList>
             {properties.map(item => (
-              <Property item={item} />
+              <CardLink to={`/property/${item.id}`}>
+                <Property item={item} />
+              </CardLink>
             ))}
           </PropertyList>
         ) : (
