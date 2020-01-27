@@ -1,52 +1,46 @@
-import React, { Component } from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 
 import api from '../../services/api';
 
 import { PropertyList, CardLink } from './styles';
-
 import PropertyCard from '../../components/PropertyCard';
 
-class Home extends Component {
-  state = {
-    properties: [],
-  };
+function Home({ dispatch, propertiesReducer }) {
+  const [properties, setProperties] = useState([]);
 
-  async componentDidMount() {
-    const { dispatch } = this.props;
+  useEffect(() => {
+    let response = null;
+    let filtered = null;
 
-    const response = await api.get('/');
+    async function fetchData() {
+      response = await api.get('/');
+      filtered = response.data.filter(item => item.publish !== false);
+      setProperties(filtered);
+      dispatch({
+        type: 'FILL_PROPERTIES',
+        properties: filtered,
+      });
+    }
 
-    const filtered = response.data.filter(item => item.publish !== false);
+    fetchData();
+  }, [dispatch]);
 
-    this.setState({ properties: filtered });
-
-    dispatch({
-      type: 'FILL_PROPERTIES',
-      properties: filtered,
-    });
-  }
-
-  render() {
-    const { properties } = this.state;
-
-    return (
-      <>
-        {properties !== null ? (
-          <PropertyList>
-            {properties.map(item => (
-              <CardLink key={item.id} to={`/property/${item.id}`}>
-                <PropertyCard item={item} />
-              </CardLink>
-            ))}
-          </PropertyList>
-        ) : (
-          <h1>Carregando...</h1>
-        )}
-      </>
-    );
-  }
+  return (
+    <>
+      {properties !== null ? (
+        <PropertyList>
+          {properties.map(item => (
+            <CardLink key={item.id} to={`/property/${item.id}`}>
+              <PropertyCard item={item} />
+            </CardLink>
+          ))}
+        </PropertyList>
+      ) : (
+        <h1>Carregando...</h1>
+      )}
+    </>
+  );
 }
 
 export default connect(state => ({
