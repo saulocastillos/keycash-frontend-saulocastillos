@@ -10,7 +10,7 @@ export default function Routes() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/property" component={Property} />
+      <Route path="/property/:id" component={Property} />
       <Route path="/favorites" component={Favorites} />
     </Switch>
   );
