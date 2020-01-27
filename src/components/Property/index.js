@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { withRouter } from 'react-router-dom';
+
 import { Container, HeartIcon } from './styles';
 
-export default function Property({ item }) {
+function Property({ item }) {
   return (
     <Container>
       {item ? (
@@ -29,3 +31,5 @@ export default function Property({ item }) {
     </Container>
   );
 }
+
+export default withRouter(Property);
