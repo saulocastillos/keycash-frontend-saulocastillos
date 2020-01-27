@@ -6,7 +6,7 @@ import { PropertyList, CardLink } from './styles';
 
 import PropertyCard from '../../components/PropertyCard';
 
-export default class Home extends Component {
+class Home extends Component {
   state = {
     properties: [],
   };
@@ -36,3 +36,5 @@ export default class Home extends Component {
     );
   }
 }
+
+export default Home;
