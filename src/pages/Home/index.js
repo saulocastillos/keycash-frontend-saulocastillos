@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { connect } from 'react-redux';
+
 import api from '../../services/api';
 
 import { PropertyList, CardLink } from './styles';
@@ -12,8 +14,18 @@ class Home extends Component {
   };
 
   async componentDidMount() {
+    const { dispatch } = this.props;
+
     const response = await api.get('/');
-    this.setState({ properties: response.data });
+
+    const filtered = response.data.filter(item => item.publish !== false);
+
+    this.setState({ properties: filtered });
+
+    dispatch({
+      type: 'FILL_PROPERTIES',
+      properties: filtered,
+    });
   }
 
   render() {
@@ -21,10 +33,10 @@ class Home extends Component {
 
     return (
       <>
-        {properties ? (
+        {properties !== null ? (
           <PropertyList>
             {properties.map(item => (
-              <CardLink to={`/property/${item.id}`}>
+              <CardLink key={item.id} to={`/property/${item.id}`}>
                 <PropertyCard item={item} />
               </CardLink>
             ))}
@@ -37,4 +49,6 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default connect(state => ({
+  propertiesReducer: state.properties,
+}))(Home);

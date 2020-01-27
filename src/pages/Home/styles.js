@@ -2,19 +2,17 @@ import styled from 'styled-components';
 
 import { Link } from 'react-router-dom';
 
-import { MdFavorite } from 'react-icons/md';
-
 import media from 'styled-media-query';
 
 export const PropertyList = styled.ul`
   display: flex;
-  justify-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   list-style: none;
-  min-width: 400px;
+  min-width: 350px;
 
   ${media.greaterThan('small')`
-    margin: 0 auto 20px;
+    margin: 0 auto;
   `}
 `;
 
