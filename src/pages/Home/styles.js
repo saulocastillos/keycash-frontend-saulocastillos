@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+import { MdFavorite } from 'react-icons/md';
+
 import media from 'styled-media-query';
 
 export const PropertyList = styled.ul`
-
   display: flex;
   justify-items: center;
   flex-wrap: wrap;
@@ -22,33 +23,41 @@ export const PropertyList = styled.ul`
     max-width: 400px;
 
     img {
-      align-self: center;
-      max-width; 280px;
+      align-self: flex-start;
+      max-width: 320px;
     }
 
     div {
       display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      margin-top: 10px;
+      max-width: 320px;
       justify-content: space-between;
-      div {
-        flex-direction: column;
-        strong {
-          font-size: 16px;
-          line-height: 20px;
-          color: #333;
-          margin-top: 5px;
-        }
-
-        span {
-          font-size: 20px;
-          font-weight: bold;
-          margin: 5px 0 20px;
-        }
+      strong {
+        font-size: 16px;
+        line-height: 20px;
+        color: #333;
+        margin-top: 5px;
+      }
+      > span {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px 0 20px;
       }
     }
   }
 
   ${media.greaterThan('small')`
-
     margin: 0 auto 20px;
   `}
+`;
+
+export const HeartIcon = styled(MdFavorite)`
+  margin-top: -40px;
+  margin-left: 10px;
+
+  width: 30px;
+  height: 30px;
+  color: #e7308a;
 `;
