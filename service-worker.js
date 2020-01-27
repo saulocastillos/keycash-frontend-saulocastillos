@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//saulocastillos.github.io/keycash-frontend-saulocastillos/precache-manifest.f5576fa44cddbb1e3b8de4be0be3d5c9.js"
+  "/keycash-frontend-saulocastillos/precache-manifest.e8f8def85746970c615463e21dfb2b80.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("//saulocastillos.github.io/keycash-frontend-saulocastillos/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/keycash-frontend-saulocastillos/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

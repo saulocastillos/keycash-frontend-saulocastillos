@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/main.9ae012ce.chunk.js",
-    "main.js.map": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/main.9ae012ce.chunk.js.map",
-    "runtime-main.js": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/runtime-main.8ad24be7.js",
-    "runtime-main.js.map": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/runtime-main.8ad24be7.js.map",
-    "static/js/2.8f395309.chunk.js": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/2.8f395309.chunk.js",
-    "static/js/2.8f395309.chunk.js.map": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/2.8f395309.chunk.js.map",
-    "index.html": "//saulocastillos.github.io/keycash-frontend-saulocastillos/index.html",
-    "precache-manifest.f5576fa44cddbb1e3b8de4be0be3d5c9.js": "//saulocastillos.github.io/keycash-frontend-saulocastillos/precache-manifest.f5576fa44cddbb1e3b8de4be0be3d5c9.js",
-    "service-worker.js": "//saulocastillos.github.io/keycash-frontend-saulocastillos/service-worker.js",
-    "static/js/2.8f395309.chunk.js.LICENSE": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/js/2.8f395309.chunk.js.LICENSE",
-    "static/media/logo.svg": "//saulocastillos.github.io/keycash-frontend-saulocastillos/static/media/logo.bd6a1e07.svg"
+    "main.js": "/keycash-frontend-saulocastillos/static/js/main.9ae012ce.chunk.js",
+    "main.js.map": "/keycash-frontend-saulocastillos/static/js/main.9ae012ce.chunk.js.map",
+    "runtime-main.js": "/keycash-frontend-saulocastillos/static/js/runtime-main.3b9f9130.js",
+    "runtime-main.js.map": "/keycash-frontend-saulocastillos/static/js/runtime-main.3b9f9130.js.map",
+    "static/js/2.a54f743e.chunk.js": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js",
+    "static/js/2.a54f743e.chunk.js.map": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js.map",
+    "index.html": "/keycash-frontend-saulocastillos/index.html",
+    "precache-manifest.e8f8def85746970c615463e21dfb2b80.js": "/keycash-frontend-saulocastillos/precache-manifest.e8f8def85746970c615463e21dfb2b80.js",
+    "service-worker.js": "/keycash-frontend-saulocastillos/service-worker.js",
+    "static/js/2.a54f743e.chunk.js.LICENSE": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js.LICENSE",
+    "static/media/logo.svg": "/keycash-frontend-saulocastillos/static/media/logo.bd6a1e07.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ad24be7.js",
-    "static/js/2.8f395309.chunk.js",
+    "static/js/runtime-main.3b9f9130.js",
+    "static/js/2.a54f743e.chunk.js",
     "static/js/main.9ae012ce.chunk.js"
   ]
 }
