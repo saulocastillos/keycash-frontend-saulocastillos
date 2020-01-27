@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/keycash-frontend-saulocastillos/static/js/main.9ae012ce.chunk.js",
+    "main.js.map": "/keycash-frontend-saulocastillos/static/js/main.9ae012ce.chunk.js.map",
+    "runtime-main.js": "/keycash-frontend-saulocastillos/static/js/runtime-main.3b9f9130.js",
+    "runtime-main.js.map": "/keycash-frontend-saulocastillos/static/js/runtime-main.3b9f9130.js.map",
+    "static/js/2.a54f743e.chunk.js": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js",
+    "static/js/2.a54f743e.chunk.js.map": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js.map",
+    "index.html": "/keycash-frontend-saulocastillos/index.html",
+    "precache-manifest.e8f8def85746970c615463e21dfb2b80.js": "/keycash-frontend-saulocastillos/precache-manifest.e8f8def85746970c615463e21dfb2b80.js",
+    "service-worker.js": "/keycash-frontend-saulocastillos/service-worker.js",
+    "static/js/2.a54f743e.chunk.js.LICENSE": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js.LICENSE",
+    "static/media/logo.svg": "/keycash-frontend-saulocastillos/static/media/logo.bd6a1e07.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b9f9130.js",
+    "static/js/2.a54f743e.chunk.js",
+    "static/js/main.9ae012ce.chunk.js"
+  ]
+}
