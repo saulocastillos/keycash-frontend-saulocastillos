@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 
 import { Container, HeartIcon } from './styles';
 
-function Property({ item }) {
+function PropertyCard({ item }) {
   return (
     <Container>
       {item ? (
@@ -32,4 +32,4 @@ function Property({ item }) {
   );
 }
 
-export default withRouter(Property);
+export default withRouter(PropertyCard);

@@ -4,7 +4,7 @@ import api from '../../services/api';
 
 import { PropertyList, CardLink } from './styles';
 
-import Property from '../../components/Property';
+import PropertyCard from '../../components/PropertyCard';
 
 export default class Home extends Component {
   state = {
@@ -25,7 +25,7 @@ export default class Home extends Component {
           <PropertyList>
             {properties.map(item => (
               <CardLink to={`/property/${item.id}`}>
-                <Property item={item} />
+                <PropertyCard item={item} />
               </CardLink>
             ))}
           </PropertyList>
