@@ -11,7 +11,7 @@ export default function Header() {
       <Link to="/">
         <img src={logo} alt="Keycash Properties" />
       </Link>
-      <Favorite>
+      <Favorite to="/favorites">
         <div>
           <strong>Favoritos</strong>
           <span>3 itens</span>
