@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "518e8c1b224e13a9786bcc12f8a54f34",
+    "revision": "0dc5184c48254747862f7fe6458f41d5",
     "url": "/keycash-frontend-saulocastillos/index.html"
   },
   {
-    "revision": "0d5ad03b8cc4c25806e7",
-    "url": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js"
+    "revision": "5f3a6d3ba8a02f0f5052",
+    "url": "/keycash-frontend-saulocastillos/static/js/2.6a9235de.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/keycash-frontend-saulocastillos/static/js/2.a54f743e.chunk.js.LICENSE"
+    "url": "/keycash-frontend-saulocastillos/static/js/2.6a9235de.chunk.js.LICENSE"
   },
   {
-    "revision": "d595498c4c71aa4a0551",
-    "url": "/keycash-frontend-saulocastillos/static/js/main.29801daf.chunk.js"
+    "revision": "af928f4c940d3047903d",
+    "url": "/keycash-frontend-saulocastillos/static/js/main.5b02dcc0.chunk.js"
   },
   {
     "revision": "3f8ecb81f53c28760158",
