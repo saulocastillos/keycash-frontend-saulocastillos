@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 
 import api from '../../services/api';
@@ -6,29 +6,22 @@ import api from '../../services/api';
 import { PropertyList, CardLink } from './styles';
 import PropertyCard from '../../components/PropertyCard';
 
-function Home({ dispatch, propertiesReducer }) {
-  const [properties, setProperties] = useState([]);
-
+function Home({ dispatch, properties = [] }) {
   useEffect(() => {
-    let response = null;
-    let filtered = null;
-
     async function fetchData() {
-      response = await api.get('/');
-      filtered = response.data.filter(item => item.publish !== false);
-      setProperties(filtered);
+      const response = await api.get('/');
+      const filtered = response.data.filter(item => item.publish !== false);
       dispatch({
         type: 'FILL_PROPERTIES',
         properties: filtered,
       });
     }
-
     fetchData();
   }, [dispatch]);
 
   return (
     <>
-      {properties !== null ? (
+      {properties.length > 0 ? (
         <PropertyList>
           {properties.map(item => (
             <CardLink key={item.id} to={`/property/${item.id}`}>
@@ -44,5 +37,5 @@ function Home({ dispatch, propertiesReducer }) {
 }
 
 export default connect(state => ({
-  propertiesReducer: state.properties,
+  properties: state.properties,
 }))(Home);

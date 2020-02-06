@@ -5,6 +5,7 @@ import { Container, FavoriteHeart } from './styles';
 
 function Property({ match, dispatch, properties = [], favorites = [] }) {
   const { id } = match.params;
+
   const item = properties.filter(item => item.id === id);
   let property = null;
 
