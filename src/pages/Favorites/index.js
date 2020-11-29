@@ -4,24 +4,26 @@ import { connect } from 'react-redux';
 import { PropertyList, CardLink } from './styles';
 import PropertyCard from '../../components/PropertyCard';
 
-function Home({ favorites = [] }) {
+function Home({ favorities = [] }) {
   return (
     <>
-      {favorites.length > 0 ? (
+      {favorities.length > 0 ? (
         <PropertyList>
-          {favorites.map(item => (
+          {favorities.map(item => (
             <CardLink key={item.id} to={`/property/${item.id}`}>
               <PropertyCard item={item} />
             </CardLink>
           ))}
         </PropertyList>
       ) : (
-        <h1>Nenhum favorito ainda :(</h1>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <h1>Nenhum favorito ainda :(</h1>
+        </div>
       )}
     </>
   );
 }
 
 export default connect(state => ({
-  favorites: state.favorites,
+  favorities: state.favorities,
 }))(Home);

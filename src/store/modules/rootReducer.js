@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import favorites from './favorites/reducer';
+import favorities from './favorities/reducer';
 import properties from './properties/reducer';
 
-export default combineReducers({ favorites, properties });
+export default combineReducers({ favorities, properties });

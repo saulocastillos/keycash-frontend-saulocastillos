@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { Link } from 'react-router-dom';
 
-import { MdFavoriteBorder as Heart } from 'react-icons/md';
+import { MdFavoriteBorder, MdFavorite } from 'react-icons/md';
 
 import media from 'styled-media-query';
 
@@ -31,7 +31,14 @@ export const CardLink = styled(Link)`
   color: inherit;
 `;
 
-export const FavoriteHeart = styled(Heart)`
+export const FavoriteHeart = styled(MdFavorite)`
   margin-top: -4rem;
   margin-bottom: 2rem;
+  color: #e7308a;
+`;
+
+export const NoFavoriteHeart = styled(MdFavoriteBorder)`
+  margin-top: -4rem;
+  margin-bottom: 2rem;
+  color: #e7308a;
 `;

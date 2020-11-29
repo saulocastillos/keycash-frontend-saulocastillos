@@ -2,7 +2,7 @@
   "name": "keycash-frontend-saulocastillos",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://saulocastillos.github.io/keycash-frontend-saulocastillos",
+  "homepage": "https://saulocastillos.github.io/keycash-frontend-saulocastillos",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -12,6 +12,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
+    "react-loading-skeleton": "^2.1.1",
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",

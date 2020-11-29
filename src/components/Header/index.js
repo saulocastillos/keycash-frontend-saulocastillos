@@ -25,5 +25,5 @@ function Header({ favoritesSize }) {
 }
 
 export default connect(state => ({
-  favoritesSize: state.favorites.length,
+  favoritesSize: state.favorities.length,
 }))(Header);
