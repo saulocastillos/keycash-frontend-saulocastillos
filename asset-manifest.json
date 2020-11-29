@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/keycash-frontend-saulocastillos/static/js/main.5b02dcc0.chunk.js",
-    "main.js.map": "/keycash-frontend-saulocastillos/static/js/main.5b02dcc0.chunk.js.map",
+    "main.js": "/keycash-frontend-saulocastillos/static/js/main.3dfffb10.chunk.js",
+    "main.js.map": "/keycash-frontend-saulocastillos/static/js/main.3dfffb10.chunk.js.map",
     "runtime-main.js": "/keycash-frontend-saulocastillos/static/js/runtime-main.3b9f9130.js",
     "runtime-main.js.map": "/keycash-frontend-saulocastillos/static/js/runtime-main.3b9f9130.js.map",
-    "static/js/2.6a9235de.chunk.js": "/keycash-frontend-saulocastillos/static/js/2.6a9235de.chunk.js",
-    "static/js/2.6a9235de.chunk.js.map": "/keycash-frontend-saulocastillos/static/js/2.6a9235de.chunk.js.map",
+    "static/js/2.048946e1.chunk.js": "/keycash-frontend-saulocastillos/static/js/2.048946e1.chunk.js",
+    "static/js/2.048946e1.chunk.js.map": "/keycash-frontend-saulocastillos/static/js/2.048946e1.chunk.js.map",
     "index.html": "/keycash-frontend-saulocastillos/index.html",
-    "precache-manifest.1aa5b580d53c10531fe72392223aa2b6.js": "/keycash-frontend-saulocastillos/precache-manifest.1aa5b580d53c10531fe72392223aa2b6.js",
+    "precache-manifest.c2a7949d04cb793ed420e88121daa5dc.js": "/keycash-frontend-saulocastillos/precache-manifest.c2a7949d04cb793ed420e88121daa5dc.js",
     "service-worker.js": "/keycash-frontend-saulocastillos/service-worker.js",
-    "static/js/2.6a9235de.chunk.js.LICENSE": "/keycash-frontend-saulocastillos/static/js/2.6a9235de.chunk.js.LICENSE",
+    "static/js/2.048946e1.chunk.js.LICENSE": "/keycash-frontend-saulocastillos/static/js/2.048946e1.chunk.js.LICENSE",
     "static/media/logo.svg": "/keycash-frontend-saulocastillos/static/media/logo.bd6a1e07.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3b9f9130.js",
-    "static/js/2.6a9235de.chunk.js",
-    "static/js/main.5b02dcc0.chunk.js"
+    "static/js/2.048946e1.chunk.js",
+    "static/js/main.3dfffb10.chunk.js"
   ]
 }
